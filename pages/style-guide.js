@@ -29,10 +29,6 @@ export default class StyleGuidePage extends Page {
                         This is a paragraph element. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.
                         This is a paragraph element. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
                     </UI.Paragraph>
-                    <UI.Paragraph>
-                        This is a paragraph element. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.
-                        This is a paragraph element. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
-                    </UI.Paragraph>
                 </UI.Card>
 
                 <UI.Card title="Layout">
@@ -40,7 +36,7 @@ export default class StyleGuidePage extends Page {
                     </UI.NavBar>
                 </UI.Card>
 
-                <UI.Card title="Form">
+                <UI.Card title="Forms">
                     <UI.TextField />
                 </UI.Card>
             </div>
