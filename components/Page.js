@@ -4,7 +4,7 @@ import css      from 'next/css';
 import Link     from 'next/link';
 import Head     from 'next/head';
 
-import { NavBar } from '../lib/hypo-ui';
+import { NavBar, colors } from '../lib/hypo-ui';
 
 
 export default class Page extends React.Component {
@@ -31,7 +31,7 @@ export default class Page extends React.Component {
                 </Head>
 
                 <NavBar
-                    title="◙Hypothesize"
+                    title="hypothesize"
                     navItems={ this.navItems } />
 
                 { children }
@@ -41,6 +41,8 @@ export default class Page extends React.Component {
 }
 
 const styles = css({
+    background: colors.grey[50],
+    display: 'block',
     fontFamily: 'Space Mono, monospace',
-    fontSize: '16px'
+    fontSize: '14px'
 });

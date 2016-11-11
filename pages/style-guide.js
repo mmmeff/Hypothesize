@@ -12,6 +12,13 @@ export default class StyleGuidePage extends Page {
     render() {
         return super.render(
             <div>
+                <UI.Card title="Buttons">
+                    <UI.Button primary>primary</UI.Button>
+                    <UI.Button secondary>secondary</UI.Button>
+                    <UI.Button ghost>ghost</UI.Button>
+                    <UI.Button disabled>disabled</UI.Button>
+                </UI.Card>
+
                 <UI.Card title="Typography">
                     <UI.Heading level={ 1 }>Heading 1</UI.Heading>
                     <UI.Heading level={ 2 }>Heading 2</UI.Heading>
@@ -28,12 +35,12 @@ export default class StyleGuidePage extends Page {
                     </UI.Paragraph>
                 </UI.Card>
 
-                <UI.Card title="Layout Elements">
+                <UI.Card title="Layout">
                     <UI.NavBar title="NavBar" navItems={[<a href="">lorem</a>, <a href="">ipsum</a>]}>
                     </UI.NavBar>
                 </UI.Card>
 
-                <UI.Card title="Form Elements">
+                <UI.Card title="Form">
                     <UI.TextField />
                 </UI.Card>
             </div>
