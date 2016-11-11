@@ -11,7 +11,7 @@
   },
   "betterScripts": {
     "client-dev": {
-      "command": "next -p 1773",
+      "command": "next -p 1776",
       "env": {
         "NODE_ENV": "development"
       }
@@ -21,7 +21,7 @@
       "env": {
         "NODE_PATH": "./api",
         "NODE_ENV": "development",
-        "PORT": 1774
+        "PORT": 1984
       }
     }
   },

@@ -1,6 +1,8 @@
 import React from 'react';
 
-export default class IndexPage extends React.Component {
+import Page from '../components/Page';
+
+export default class IndexPage extends Page {
     static propTypes = {};
 
     constructor(props) {
@@ -8,7 +10,7 @@ export default class IndexPage extends React.Component {
     }
 
     render() {
-        return (
+        return super.render(
             <h1>Suh dude!</h1>
         );
     }

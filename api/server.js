@@ -7,8 +7,14 @@ export function start() {
         res.send('suh dude!');
     });
 
+
+    app.get('/something/:id', (req, res) => {
+        const id = req.params.id;
+        res.send(`provided ID: ${id}`);
+    });
+
     const port = process.env.PORT || 3000;
     app.listen(port, () => {
-        console.log(`[API] listening on port ${3000}`);
+        console.log(`[API] listening on port ${port}`);
     });
 }
