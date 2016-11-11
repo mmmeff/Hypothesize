@@ -17,8 +17,7 @@ export default class Page extends React.Component {
 
         this.navItems = [
             // TODO: Figure out styling of Link elements (open PR to Next)
-            // <Link href="/style-guide">style guide</Link>,
-            <a href="/tests">tests</a>,
+            // <Link href="/style-guide">style guide</Link>
             <a href="/style-guide">style guide</a>
         ];
     }
