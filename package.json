@@ -6,8 +6,7 @@
   "scripts": {
     "start": "concurrent --kill-others \"npm run client-dev\" \"npm run api-dev\"",
     "client-dev": "better-npm-run client-dev",
-    "api-dev": "better-npm-run api-dev",
-    "watch-client": "better-npm-run watch-client"
+    "api-dev": "better-npm-run api-dev"
   },
   "betterScripts": {
     "client-dev": {
@@ -35,11 +34,15 @@
     "babel-preset-stage-0": "^6.16.0",
     "babel-register": "^6.18.0",
     "better-npm-run": "^0.0.13",
+    "classnames": "^2.2.5",
     "concurrently": "^3.1.0",
     "express": "^4.14.0",
     "next": "^1.1.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
+  },
+  "peerDependencies": {
+    "glamor": "^2.17.14"
   }
 }

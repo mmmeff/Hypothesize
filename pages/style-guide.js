@@ -13,10 +13,18 @@ export default class StyleGuidePage extends Page {
         return super.render(
             <div>
                 <UI.Card title="Buttons">
+                    <UI.Heading level={ 4 }>Button</UI.Heading>
                     <UI.Button primary>primary</UI.Button>
                     <UI.Button secondary>secondary</UI.Button>
                     <UI.Button ghost>ghost</UI.Button>
                     <UI.Button disabled>disabled</UI.Button>
+
+                    <UI.Heading level={ 4 }>ButtonGroup</UI.Heading>
+                    <UI.ButtonGroup>
+                        <UI.Button primary>primary</UI.Button>
+                        <UI.Button secondary>secondary</UI.Button>
+                        <UI.Button ghost>ghost</UI.Button>
+                    </UI.ButtonGroup>
                 </UI.Card>
 
                 <UI.Card title="Typography">
