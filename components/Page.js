@@ -27,6 +27,7 @@ export default class Page extends React.Component {
             <page className={ styles }>
                 <Head>
                     <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet" />
+                    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
                 </Head>
 
                 <NavBar titleElement={ <Link href="/">hypothesize</Link> } navItems={ navItems } />
