@@ -18,6 +18,11 @@ export default class StyleGuidePage extends Page {
                     <UI.Button secondary>secondary</UI.Button>
                     <UI.Button ghost>ghost</UI.Button>
                     <UI.Button disabled>disabled</UI.Button>
+                    <br/>
+                    <UI.Button primary size="small">small</UI.Button>
+                    <UI.Button secondary size="small">small</UI.Button>
+                    <UI.Button ghost size="small">small</UI.Button>
+                    <UI.Button disabled size="small">small</UI.Button>
 
                     <UI.Heading level={ 4 }>ButtonGroup</UI.Heading>
                     <UI.ButtonGroup>
