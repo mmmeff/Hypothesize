@@ -3,7 +3,11 @@ import css      from 'next/css';
 import Link     from 'next/link';
 import Head     from 'next/head';
 
-import { NavBar, colors } from '../lib/hypo-ui';
+import {
+    NavBar,
+    colors,
+    fonts
+} from '../lib/hypo-ui';
 import { insertRule } from 'glamor';
 
 require('glamor/reset');
@@ -26,7 +30,7 @@ export default class Page extends React.Component {
         return (
             <page className={ styles }>
                 <Head>
-                    <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet" />
+                    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans" rel="stylesheet" />
                     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
                 </Head>
 
@@ -41,7 +45,7 @@ export default class Page extends React.Component {
 const styles = css({
     background: colors.grey[50],
     display: 'block',
-    fontFamily: 'Space Mono, monospace',
+    fontFamily: fonts.body,
     fontSize: '14px',
     minHeight: '100vh',
     overflow: 'hidden'
