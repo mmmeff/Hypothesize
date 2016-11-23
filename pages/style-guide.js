@@ -74,7 +74,6 @@ export default class StyleGuidePage extends Page {
                 </UI.Card>
 
                 <UI.Card title="Typography">
-                    <UI.Heading centered level={ 1 }>Centered Heading 1</UI.Heading>
                     <UI.Heading level={ 1 }>Heading 1</UI.Heading>
                     <UI.Heading level={ 2 }>Heading 2</UI.Heading>
                     <UI.Heading level={ 3 }>Heading 3</UI.Heading>
@@ -84,19 +83,88 @@ export default class StyleGuidePage extends Page {
                         This is a paragraph element. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.
                         This is a paragraph element. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
                     </UI.Paragraph>
+                    <UI.Heading centered level={ 1 }>Centered Heading 1</UI.Heading>
                 </UI.Card>
 
                 <UI.Card title="Layout">
                     <UI.Heading level={ 3 }>NavBar</UI.Heading>
-                    <UI.NavBar title="NavBar" navItems={[<a href="">lorem</a>, <a href="">ipsum</a>]}>
-                    </UI.NavBar>
+                    <UI.NavBar title="NavBar" navItems={[<a href="">lorem</a>, <a href="">ipsum</a>]} />
+
+                    <UI.Heading level={ 3 }>Card</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>Tabs</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>Drawer</UI.Heading>
+                    todo
 
                     <UI.Heading level={ 3 }>Breadcrumbs</UI.Heading>
-                    <UI.Heading level={ 3 }>Breadcrumbs</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>Lists</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>Context Menu</UI.Heading>
+                    todo
+
                 </UI.Card>
 
                 <UI.Card title="Forms">
-                    <UI.TextField />
+                    <UI.Heading level={ 3 }>TextField</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>Checkbox</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>Toggle</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>Radio</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>Select</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>Dropdown</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>DatePicker</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>TimePicker</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>DateTimePicker</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>Progress</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>Slider</UI.Heading>
+                    todo
+                </UI.Card>
+
+                <UI.Card title="Dialogs">
+                    <UI.Heading level={ 3 }>Dialog</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>Alert</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>Tooltips</UI.Heading>
+                    todo
+                </UI.Card>
+
+                <UI.Card title="Miscellaneous">
+                    <UI.Heading level={ 3 }>Tags</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>Toats</UI.Heading>
+                    todo
+
+                    <UI.Heading level={ 3 }>Toats</UI.Heading>
+                    todo
                 </UI.Card>
             </div>
         );
