@@ -79,11 +79,17 @@ export default class StyleGuidePage extends Page {
                     <UI.Heading level={ 3 }>Heading 3</UI.Heading>
                     <UI.Heading level={ 4 }>Heading 4</UI.Heading>
                     <UI.Heading level={ 5 }>Heading 5</UI.Heading>
+
                     <UI.Paragraph style={{ maxWidth: 800 }}>
                         This is a paragraph element. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.
                         This is a paragraph element. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
                     </UI.Paragraph>
+
                     <UI.Heading centered level={ 1 }>Centered Heading 1</UI.Heading>
+                    <UI.Heading centered level={ 2 }>Centered Heading 2</UI.Heading>
+                    <UI.Heading centered level={ 3 }>Centered Heading 3</UI.Heading>
+                    <UI.Heading centered level={ 4 }>Centered Heading 4</UI.Heading>
+                    <UI.Heading centered level={ 5 }>Centered Heading 5</UI.Heading>
                 </UI.Card>
 
                 <UI.Card title="Layout">
