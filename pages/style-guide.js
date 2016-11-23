@@ -160,10 +160,7 @@ export default class StyleGuidePage extends Page {
                     <UI.Heading level={ 3 }>Tags</UI.Heading>
                     todo
 
-                    <UI.Heading level={ 3 }>Toats</UI.Heading>
-                    todo
-
-                    <UI.Heading level={ 3 }>Toats</UI.Heading>
+                    <UI.Heading level={ 3 }>Toasts</UI.Heading>
                     todo
                 </UI.Card>
             </div>
