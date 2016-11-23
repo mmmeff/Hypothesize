@@ -88,7 +88,7 @@ export default class StyleGuidePage extends Page {
 
                 <UI.Card title="Layout">
                     <UI.Heading level={ 3 }>NavBar</UI.Heading>
-                    <UI.NavBar title="NavBar" navItems={[<a href="">lorem</a>, <a href="">ipsum</a>]} />
+                    <UI.NavBar titleElement="NavBar" leftNavItems={[<a href="">lorem</a>, <a href="">ipsum</a>]} />
 
                     <UI.Heading level={ 3 }>Card</UI.Heading>
                     todo

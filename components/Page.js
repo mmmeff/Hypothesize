@@ -22,9 +22,15 @@ export default class Page extends React.Component {
     }
 
     render(children) {
-        const navItems = [
-            <Link href="/style-guide">style guide</Link>,
+        const leftNavItems = [
+            <Link href="/tests">tests</Link>,
+            <Link href="/apis">apis</Link>,
             <Link href="/style-guide">style guide</Link>
+        ];
+
+        const rightNavItems = [
+            <Link href="/settings">settings</Link>,
+            <Link href="/profile">profile</Link>
         ];
 
         return (
@@ -34,7 +40,10 @@ export default class Page extends React.Component {
                     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
                 </Head>
 
-                <NavBar titleElement={ <Link href="/">hypothesize</Link> } navItems={ navItems } />
+                <NavBar
+                    titleElement={ <Link href="/">hypothesize</Link> }
+                    leftNavItems={ leftNavItems }
+                    rightNavItems={ rightNavItems }/>
 
                 { children }
             </page>

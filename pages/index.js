@@ -1,4 +1,5 @@
-import React from 'react';
+import React    from 'react';
+import * as UI       from '../lib/hypo-ui';
 
 import Page from '../components/Page';
 
@@ -11,7 +12,15 @@ export default class IndexPage extends Page {
 
     render() {
         return super.render(
-            <h1>Suh dude!</h1>
+            <div>
+                <UI.Card title="Active Tests">
+
+                </UI.Card>
+
+                <UI.Card title="Traffic">
+
+                </UI.Card>
+            </div>
         );
     }
 }
